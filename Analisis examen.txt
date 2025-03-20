@@ -1,0 +1,36 @@
+Análisis del problema:
+
+Para este hospital el uso de un sistema informático para administrar la información sería la mejor solución, ya que optimizaría mucho el registro de pacientes, la programación de citas y un acceso más rápido al historial de cada paciente, sin necesidad de depender de archivos físicos que pueden dañarse y perderse, esto también hará que el paciente pueda ser avisado de una próxima cita disminuyendo así la falta en las citas, así como poder administrar y gestionar mejor la información de los médicos como los días disponibles para trabajar.
+
+Solución del problema:
+
+Para la administración de este hospital se va a implementar un sistema para la recepción, este será programado en C++ y contará con las siguientes características:
+
+Menu principal
+> Registro pacientes
+> Registro medicos
+> Programacion de consultas
+> Historial medico pacientes
+> Reportes
+
+Para esta solucion se utilizará un sistema que permita un máximo de 20 pacientes, 10 medicos y 10 citas (esta solucion está hecha con vectores de tamaño fijo)
+
+Registro pacientes:
+
+Se le pedirá al paciente que nos brinde su numero de cedula (este número será el identificador del paciente ya que es unico) y si el paciente no estaba registrado se le añadirá al vector de pacientes junto con sus datos, una vez registrado el paciente se devuelve al menú principal.
+
+Registro medicos:
+
+Acá se pueden agregar medicos con nombre, especialidad y los dias que trabajan en la semana así como consultar por los medicos según su disponibilidad y numero de cédula.
+
+Programacion de consultas:
+
+La secretaria puede asignar citas con fecha, nombre de paciente, nombre del medico, especialidad, sintomas del paciente, en esta pestaña también se muestra un resumen de las citas con los doctores y la fecha.
+
+Historial medico pacientes:
+
+Se consulta un paciente por su numero de cedula y se muestran todas las cunsultas que ha tenido ese paciente, cuantas veces ha surfido diversos síntomas para poder enviarle un informe al medico cuando el paciente llegue.
+
+Reportes:
+
+Se mostrará un menu con diferentes opciones, se podrá solicitar al apciente que brinde un reporte de satisfacción, también se podrá ver un reporte automático con la cantidad de pacientes que llegaron a la clínica, cual es la enfermedad más común y cual fue el médico con más pacientes y la especialidad más solicitada.
